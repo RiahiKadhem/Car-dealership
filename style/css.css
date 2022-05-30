@@ -1,0 +1,603 @@
+/*badr code*/
+
+html {
+    background: rgb(27, 27, 27);
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+main {
+    background: rgb(63, 54, 54);
+}
+
+main * {
+    z-index: 0;
+}
+
+header div {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background: black;
+    width: 100%;
+}
+
+header * {
+    z-index: 1;
+}
+
+.mapframe {
+    width: "200px";
+    height: "150px";
+    border: "0px";
+}
+
+h1 {
+    font-family: "Pacifico";
+    text-align: center;
+    color: rgb(238, 219, 113);
+}
+
+header nav {
+    display: inline-block;
+    width: 85%;
+}
+
+header ul {
+    margin-left: auto;
+    width: 85%;
+    display: flex;
+    list-style: none;
+}
+
+header {
+    display: block;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
+a {
+    color: grey;
+    font-family: "Pacifico";
+}
+
+header li {
+    margin: 0;
+}
+
+header li:hover {
+    color: black;
+    background: honeydew;
+    transition: 00.3s;
+}
+
+#googleMap {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 1%;
+    bottom: 1%;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding: 5%;
+}
+
+/*header ul li {
+    padding: 2% 5%;
+}*/
+
+#logo {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#bcover img {
+    width: 100%;
+}
+
+aside {
+    color: blanchedalmond;
+    width: 10%;
+    float: left;
+    margin-top: 2%;
+    padding: 3%;
+    background: black;
+}
+
+.mySlides {
+    width: 100%;
+    height: 550px;
+}
+
+.bvedette {
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    margin: 2%;
+}
+
+.bvedette img {
+    width: 100%;
+    height: 300px;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+/*footer ul li {
+    padding: 2% 5%;
+    vertical-align: auto;
+}*/
+
+footer ul {
+    margin-left: 2%;
+    width: 75%;
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    display: inline-block;
+    padding: 50px;
+}
+
+footer li:hover {
+    background: honeydew;
+    transition: 00.3s;
+}
+
+.footercontacts {
+    display: inline-block;
+    width: 50%;
+}
+
+.footercontacts div {
+    display: flex;
+}
+
+.footercontacts img {
+    display: inline-block;
+}
+
+.socialmediacontainer {
+    width: 100%;
+}
+
+.socialmediacontainer div {
+    display: flex;
+    width: 45%;
+    display: inline-block;
+}
+
+.socialmediacontainer img {
+    display: inline-block;
+}
+
+.socials {
+    display: inline-block;
+    display: 48%;
+    margin-left: 25%;
+}
+
+.bmedias {
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+.bmedias:hover {
+    background: grey;
+    transition: 00.3s;
+}
+
+#firstmedia {
+    margin-left: 50%;
+}
+
+footer h4 {
+    color: wheat;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.exclusicity {
+    color: rgb(233, 233, 151);
+    text-align: center;
+}
+
+.acceuil .bvedette:hover {
+    opacity: 0.5;
+    transition: 00.3s;
+}
+
+/*galerie*/
+
+.galeriecontainer {
+    overflow: scroll;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 2%;
+    border: while solid 5px;
+}
+
+.galeriepictures {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.galeriepictures:nth-child(1) {
+    background-image: url(../images/galerie/bluemclaren.webp);
+}
+
+.galeriepictures:nth-child(2) {
+    background-image: url(../images/galerie/amggtgrey.jpg);
+}
+
+.galeriepictures:nth-child(3) {
+    background-image: url(../images/galerie/blackmc.jpg);
+}
+
+.galeriepictures:nth-child(4) {
+    background-image: url(../images/galerie/greencar.jpg);
+}
+
+.galeriepictures:nth-child(5) {
+    background-image: url(../images/galerie/whitecar.png);
+}
+
+.galeriepictures:nth-child(6) {
+    background-image: url(../images/galerie/lambogreenish.jpg);
+}
+
+.galeriepictures:nth-child(7) {
+    background-image: url(../images/galerie/redferrari.jpg);
+}
+
+.galeriepictures:nth-child(8) {
+    background-image: url(../images/galerie/redlambo.webp);
+}
+
+.galeriepictures:nth-child(9) {
+    background-image: url(../images/galerie/redmclaren.jpg);
+}
+
+.galeriepictures:nth-child(10) {
+    background-image: url(../images/galerie/redzonda.webp);
+}
+
+.galeriepictures:nth-child(11) {
+    background-image: url(../images/galerie/supergrey.jpg);
+}
+
+.galeriepictures:nth-child(12) {
+    background-image: url(../images/galerie/yellowlambo.jpg);
+}
+
+.galeriepictures:hover {
+    opacity: 0.5;
+    transition: 00.3s;
+}
+
+.galeriepictures a {
+    /*c'est pour faire en sort a se que toute la div soit clickable*/
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* la partie css catalogue*/
+
+.cataloguecontainer h2 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(223, 223, 132);
+    font-family: "Pacifico";
+}
+
+.catalogueoptions {
+    width: 95%;
+    margin-left: 5%;
+    padding-bottom: 20px;
+}
+
+.catalogueoptions div {
+    display: inline-block;
+    width: 28%;
+    height: 250px;
+    margin: 20px 1%;
+}
+
+.catalogueoptions div img {
+    width: 100%;
+    height: 300px;
+}
+
+.catalogueoptions div:hover {
+    opacity: 0.5;
+    transition: 00.3s;
+}
+
+/*kadhem code*/
+
+.formulaire legend {
+    color: khaki;
+}
+
+label {
+    color: khaki;
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.formulaire .kd-sexe {
+    margin-left: 25%;
+    width: 15%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.formulaire .sexe {
+    display: inline-block;
+    width: 55%;
+    font-size: 12px;
+}
+
+.formulaire fieldset {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-style: dashed;
+    border-color: rosybrown;
+    border-radius: 5px;
+    min-height: 500px;
+    padding-top: 100px;
+}
+
+.formulaire fieldset>div {
+    margin: 10px;
+}
+
+.formulaire fieldset:last-of-type {
+    float: right;
+}
+
+.formulaire fieldset:first-of-type {
+    float: left
+}
+
+.formulaire .field {
+    display: block;
+    margin-right: 50px;
+}
+
+fieldset>div {
+    margin: 3px;
+}
+
+input[id*="kd-"] {
+    display: inline-block;
+    width: 55%;
+    border-radius: 5px;
+    border-style: double;
+    height: 40px;
+}
+
+textarea {
+    border-radius: 5px;
+    border-style: double;
+    width: 200px;
+    height: 70px;
+}
+
+footer {
+    display: block;
+    height: 200px;
+}
+
+.socialmediacontainer ul li {
+    margin: 2% 5%;
+}
+
+/*footer ul {
+    margin-left: 4%;
+    width: 75%;
+    display: flex;
+    list-style: none;
+}*/
+
+#exclusivity {
+    text-align: center;
+    margin: auto;
+}
+
+.formulaire input[type="reset"] {
+    width: 10%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: seashell;
+}
+
+.formulaire input[type="submit"] {
+    width: 10%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: seashell;
+}
+
+.formulaire .kd-button {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.op {
+    font-size: 1rem;
+}
+
+.formulaire p.options {
+    font-size: 1.5rem;
+    color: khaki;
+}
+
+.formulaire input[type="date"] {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border-style: double;
+}
+
+.formulaire select {
+    border-radius: 5px;
+    border-style: double;
+}
+
+.formulaire main h1 {
+    color: khaki;
+    display: inline-block;
+    margin-left: 36%;
+    margin-top: 100px;
+}
+
+.details img.exemple {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.details img:hover {
+    opacity: 0.7;
+}
+
+.details p {
+    color: khaki;
+    font-size: 1.4rem;
+    margin-left: 30px;
+}
+
+.details h2, h3 {
+    color: khaki;
+}
+
+.details main div {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: 5px solid grey;
+    padding: 10px;
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 4px;
+    border-style: double;
+}
+
+.details main h1 {
+    color: khaki;
+    display: inline-block;
+    margin-left: 36%;
+    margin-top: 100px;
+}
+
+.caracteristique main p, h3 {
+    color: khaki;
+    font-size: 1.2rem;
+    margin-left: 30px;
+}
+
+.caracteristique img#photoVoiture:hover {
+    opacity: 0.5;
+    transition: 00.3s;
+}
+
+.caracteristique img#photoVoiture {
+    width: 700px;
+}
+
+.caracteristique main table, tr, td {
+    border: 2px solid rgba(176, 196, 222, 0.5);
+    border-radius: 2px;
+}
+
+.caracteristique table {
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.caracteristique main td {
+    padding: 5px;
+}
+
+.caracteristique main #casePhoto {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.caracteristique main h1 {
+    color: khaki;
+    display: inline-block;
+    margin-left: 36%;
+    margin-top: 100px;
+}
+
+.caracteristique h3 {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/*test*/
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+}
+
+.fade img {
+    z-index: 0;
+}
+
+@keyframes fade {
+    from {
+        opacity: .2
+    }
+    to {
+        opacity: 1
+    }
+}
